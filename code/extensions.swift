@@ -6,8 +6,8 @@ extension Double {
     var ft: Double { return self / 3.28084 }
 }
 let oneInch = 25.4.mm
-println("One inch is \(oneInch) meters")
+print("One inch is \(oneInch) meters")
 // prints "One inch is 0.0254 meters"
 let threeFeet = 3.ft
-println("Three feet is \(threeFeet) meters")
+print("Three feet is \(threeFeet) meters")
 // prints "Three feet is 0.914399970739201 meters"

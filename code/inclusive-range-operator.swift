@@ -1,5 +1,5 @@
 for index in 1...5 {
-    println("\(index) times 5 is \(index * 5)")
+    print("\(index) times 5 is \(index * 5)")
 }
 // 1 times 5 is 5
 // 2 times 5 is 10
