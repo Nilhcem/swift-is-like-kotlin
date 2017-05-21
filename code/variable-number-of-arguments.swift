@@ -6,3 +6,8 @@ func sumOf(_ numbers: Int...) -> Int {
     return sum
 }
 sumOf(42, 597, 12)
+
+// sumOf() can also be written in a shorter way:
+func sumOf(_ numbers: Int...) -> Int {
+    return numbers.reduce(0, +)
+}
