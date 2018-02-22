@@ -1,2 +1,1 @@
-var mutableArray = [1, 5, 3, 12, 2]
-mutableArray.sort()
+[1, 5, 3, 12, 2].sorted()
