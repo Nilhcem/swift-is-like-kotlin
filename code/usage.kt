@@ -1,3 +1,3 @@
-var shape = Shape()
+val shape = Shape()
 shape.numberOfSides = 7
-var shapeDescription = shape.simpleDescription()
+val shapeDescription = shape.simpleDescription()
